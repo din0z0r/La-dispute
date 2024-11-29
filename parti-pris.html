@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parti pris</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            height: 80px;
+        }
+        header .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            position: absolute;
+            animation: scroll 10s linear infinite;
+            font-size: 50px;
+            line-height: 80px;
+            font-weight: bold;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        nav {
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="marquee">MARIVAUX IS WATCHING YOU - MARIVAUX IS WATCHING YOU - MARIVAUX IS WATCHING YOU</div>
+    </header>
+    <nav>
+        <a href="Untitled-1.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+        <a href="note-intention-v2.html">Note d'intention</a>
+        <a href="fable-v2.html">Fable</a>
+    </nav>
+    <main>
+        <h1>Parti pris</h1>
+        <p>Contenu du parti pris...</p>
+    </main>
+</body>
+</html>
